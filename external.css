@@ -1,0 +1,689 @@
+/* WORDCAMP MIAMI 2017 EXTERNAL CSS */
+/* David Bisset */
+
+/* hidding/showing Learn Javascript Deeply Tickets */
+
+body.page-id-1421 tr.tix-ticket-3787,
+body.page-id-3795 table.tix_tickets_table tr {
+	display: none;
+}
+body.page-id-3795 tr.tix-ticket-3787,
+body.page-id-3795 table.tix_tickets_table tr.tix-row-coupon {
+	display: block !important;
+}
+
+body.page-template-default #primary header.entry-header {
+	float: none !important;
+	width: 100% !important;
+}
+body.page-template-default #primary div.entry-content {
+	float: none !important;
+	width: 100% !important;
+}
+
+
+
+/*SAFARI DOES NOT SHOW VIDEO*/
+div.custom-header {
+	background-color: #000;
+}
+
+#tix-errors .tix-error {
+	background: none;
+	color: #ff5353;
+}
+
+.tix-ticket-form th, .tix-attendee-form th, .tix-private-form th, .tix-receipt-form th {
+	font-weight: 200;
+}
+.tix_tickets_table label {
+	font-weight: 200;
+}
+.tix_tickets_table select,
+.tix_tickets_table input {
+	padding: 5px 9px;
+	height: auto;
+}
+.tix_tickets_table input[type=checkbox],
+.tix_tickets_table input[type=radio] {
+	margin-right: 5px;
+}
+	
+.tix-right br {
+	display: none;
+}
+
+
+footer.entry-footer {
+	background-color: transparent;
+}
+footer.entry-footer .cat-tags-links {
+	color: #fff !important;
+}
+
+body.home #panel2 .wcorg-sponsor-level-community div.wcorg-sponsor .wcorg-sponsor-description img,
+body.home #panel2 .wcorg-sponsor-level-agency div.wcorg-sponsor .wcorg-sponsor-description img {
+    display: none !important;
+}
+
+body.home #panel2 .wcorg-sponsor-level-community div.wcorg-sponsor h3,
+body.home #panel2 .wcorg-sponsor-level-agency div.wcorg-sponsor h3 {
+    display: inline-block !important;
+	font-size: 13px !important;
+	font-weight: normal !important;
+}
+body.home #panel2 .wcorg-sponsor-level-community div.wcorg-sponsor h3 a,
+body.home #panel2 .wcorg-sponsor-level-agency div.wcorg-sponsor h3 a {
+    color: #333 !important;
+	font-size: 13px !important;
+}
+body.home #panel2 .wcorg-sponsor-level-community div.wcorg-sponsor h3 a:hover,
+body.home #panel2 .wcorg-sponsor-level-agency div.wcorg-sponsor h3 a:hover {
+    color: #999 !important;
+}
+body.home #panel2 .wcorg-sponsor-level-agency h2 {
+	color: #fff;
+	background: #a3a2f7;
+	padding: 10px 15px;
+	margin-top: 15px;
+}
+
+body.home #panel2 .wcorg-sponsor-level-community div.wcorg-agency h3 {
+	display: none;
+}
+
+body.home #panel2 .wcorg-sponsor-level-agency div.wcorg-sponsor .wcorg-sponsor-description {
+	text-align: center;
+}
+
+body.home #panel2 .wcorg-sponsor-level-agency div.wcorg-sponsor .wcorg-sponsor-description * {
+	display: none;
+}
+
+body.page-slug-sponsors .wcorg-sponsors img {
+	background-color: #fff !important;
+}
+body.page-slug-sponsors .wcorg-sponsor-level-community .wcorg-sponsor-description img,
+body.page-slug-sponsors .wcorg-sponsor-level-agency .wcorg-sponsor-description img {
+	display: none !important;
+}
+.wcorg-organizer img.avatar-default,
+.wcorg-speaker img.avatar-default
+ {display:none !important;}
+
+.tix-notice {
+    background: lightYellow;
+    border: solid 1px #E6DB55;
+    color: #2d052f;
+}
+
+.home #panel1 .wrap .entry-content {
+	display: none;
+}
+
+#post-371 .cta-blocks {
+	text-align: center;
+}
+#post-371 .cta-blocks .big-button {
+	color: #fff !important;
+	background: blueviolet;
+	font-size: 18px;
+	line-height: 24px;
+	padding: 20px;
+	margin: 0 0 10px 0;
+	display: inline-block;
+}
+
+
+.page .wrap .entry-content, 
+.post .wrap .entry-content {
+	background-color: #fff;
+	padding: 20px;
+}
+.page .wrap .entry-content,
+.post .wrap .entry-content {
+	color: #333;
+}
+.page .wrap .entry-content a,
+.post .wrap .entry-content a {
+	color: #069;
+}
+.page .wrap .entry-content a:hover,
+.post .wrap .entry-content a:hover {
+	color: #9E00A6;
+}
+
+.page .wrap .entry-content h1,
+.post .wrap .entry-content h1,
+.page .wrap .entry-content h2,
+.post .wrap .entry-content h2,
+.page .wrap .entry-content h3,
+.post .wrap .entry-content h3,
+.page .wrap .entry-content h4,
+.post .wrap .entry-content h4 {
+	color: #222;
+}
+
+body.page-slug-sponsors .wcorg-sponsor h3 {
+	display:none;
+}
+body.page-slug-sponsors .wcorg-sponsor-level-community .wcorg-sponsor h3,
+body.page-slug-sponsors .wcorg-sponsor-level-agency .wcorg-sponsor h3 {
+	display:block;
+}
+
+body.page-slug-sponsors .wcorg-sponsor-level-gold h2, 
+body.page-slug-sponsors .wcorg-sponsor-level-silver h2, 
+body.page-slug-sponsors .wcorg-sponsor-level-bronze h2, 
+body.page-slug-sponsors .wcorg-sponsor-level-local-featured h2, 
+body.page-slug-sponsors .wcorg-sponsor-level-community h2,
+body.page-slug-sponsors .wcorg-sponsor-level-agency h2 {
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: center !important;
+}
+
+body.page-slug-sponsors .wcorg-sponsor-level-gold h2 {
+	color: #fff !important;
+	background: #cfb53b;
+	padding: 10px 15px;
+}
+body.page-slug-sponsors .wcorg-sponsor-level-silver h2 {
+	color: #fff !important;
+	background: #c0c0c0;
+	padding: 10px 15px;
+}
+body.page-slug-sponsors .wcorg-sponsor-level-bronze h2 {
+	color: #fff !important;
+	background: #8c7853;
+	padding: 10px 15px;
+}
+body.page-slug-sponsors .wcorg-sponsor-level-local-featured h2 {
+	color: #fff !important;
+	background: #54a6d8;
+	padding: 10px 15px;
+}
+body.page-slug-sponsors .wcorg-sponsor-level-community h2 {
+	color: #fff !important;
+	background: #83e2c7;
+	padding: 10px 15px;
+}
+body.page-slug-sponsors .wcorg-sponsor-level-agency h2 {
+	color: #fff !important;
+	background: #a3a2f7;
+	padding: 10px 15px;
+}
+
+.wcorg-organizer-description img {
+	float: left;
+	margin: 0 10px 10px;
+}
+.wcorg-organizer {
+ 	margin: 0 0 25px 0;
+ 	display: table;
+}
+
+.wcorg-speaker-description img {
+	float: left;
+	margin: 0 10px 10px;
+}
+.wcorg-speaker {
+ 	margin: 0 0 25px 0;
+ 	display: table;
+}
+
+.wcorg-mailchimp input[type=submit] {
+	margin-top: 15px;
+}
+
+
+
+.colors-dark .site-header, .colors-dark .single-featured-image-header {
+    background-color: #fff !important;
+}
+body.blog .single-featured-image-header img, body.single .single-featured-image-header img, body.page-template-default .single-featured-image-header img {
+    width: inherit !important;
+	max-width: 100%;
+	max-height: auto;
+	padding: 0;
+}
+body.single .site-branding,
+body.blog .site-branding,
+body.page-template-default .site-branding {
+	height: auto;
+	text-align: center;
+}
+body.single .site-branding .site-title,
+body.blog .site-branding .site-title,
+body.page-template-default .site-branding .site-title {
+	font-weight: 400;
+}
+body.single-wcb_sponsor .single-featured-image-header img, body.page-template-default .single-featured-image-header img {
+    width: inherit !important;
+	max-width: 620px;
+	max-height: 300px;
+	padding: 30px;
+}
+
+#primary .contact-form input,
+#primary .contact-form textarea {
+	color:#333;
+}
+#primary .contact-form input[type=submit],
+#primary .contact-form input[type=button] {
+	background-color: #000;
+	color: #fff;
+}
+#primary .contact-form label {
+	font-weight: 200;
+	color: black;
+}
+.contact-form label span {
+	font-size: 11px;
+}
+
+.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+	font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.page-slug-sponsors .wcorg-sponsors img {
+	display: table;
+	padding: 20px 0;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-description:first-child img {
+	border-top: 0;
+}
+.page-slug-sponsors .wcorg-sponsors img.aligncenter {
+	display: none;
+}
+.page-slug-sponsors .wcorg-sponsor {
+	border-bottom: 10px solid #ccc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+body.home .wcorg-sponsor { 
+	border-bottom: 0;
+}
+
+
+body.home article header.entry-header h2 {
+	text-align: left !important;
+}
+/*
+.cat-tags-links a {
+	color: #fff !important;
+}
+*/
+
+.entry-footer .edit-link a.post-edit-link {
+    color: #fff !important;
+}
+.page-two-column .panel-content .recent-posts {
+	width: 100%;
+	float: none;
+
+}
+body.home .recent-posts article {
+	width: 100%;
+	margin: 10px 0;
+	display: inline-table;
+}
+body.home article header.entry-header h2.entry-title {
+	text-align: center !important;
+}
+body.home #main .recent-posts article h2.entry-title {
+	text-align: left !important;
+}
+body.home .panel-content .wrap {
+	padding-top: 3em;
+}
+body.home .panel-content .entry-header,
+body.home #panel2 header.entry-header h2.entry-title {
+	margin-bottom: 30px;
+}
+
+
+.colors-dark label {
+	color: #000;
+}
+
+#tix input[type=email], input[type=text], select, textarea {
+	background-color: #fff !important;
+	color: #000 !important;
+	width: 100% !important;
+	border-color: #ccc !important;
+}
+#tix .tix-submit select.tix_payment_method {
+	width: auto !important;
+	height: auto !important;
+	padding: 5px !important;
+}
+#tix .tix-row-total {
+	color: #00de54 !important;
+}
+#tix tr th {
+	font-weight: 600;
+}
+#tix h2 {
+	padding-top: 0;
+}
+#tix .tix-column-description {
+	font-weight: 300;
+}
+#tix .tix-column-remaining {
+	display: none;
+}
+#tix .tix-ticket-excerpt {
+	font-size: 14px;
+	line-height: 18px;
+}
+#tix .tix-ticket-title {
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 400;
+}
+#tix .tix-column-description,
+#tix .tix-column-price,
+#tix .tix-column-quantity {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#tix input[type=submit] {
+	background-color: green;
+	color: #fff;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 300;
+}
+
+#post-371 .wrap {
+	padding-bottom: 2.75em !important;
+}
+#post-371 table {
+	width: auto !important;
+}
+#post-371 .big-button {
+	color: #fff !important;
+	background: green;
+	font-size: 18px;
+	line-height: 24px;
+	padding: 20px;
+	width: 80%;
+	display: table-cell;
+}
+#post-371 .big-button-promo {
+	color: #fff !important;
+	background-color: #F80CA3;
+	font-size: 18px;
+	line-height: 24px;
+	padding: 20px;
+	width: 80%;
+	display: table-cell;
+}
+#post-371 {
+	background-image: url(http://2017.miami.wordcamp.org/files/2017/02/25121139530_53d0c696fd_k_white.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#post-371 h4 {
+	font-weight: 200;
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 5px;
+}
+#post-371 h4 span {
+	font-size: 14px;
+	color: red;
+}
+#post-371 iframe {
+	margin-bottom: 0;
+}
+#post-371 .entry-content p {
+	margin-bottom: 5px;
+}
+#post-371 ul {
+	list-style: none;
+	margin: 20px auto;
+	width: 100%;
+}
+#post-371 li {
+	width: 45%;
+	text-align: left;
+	display: inline-table;
+	margin: 0 0 10px 0;
+	font-size: 13px;
+	line-height: 15px;
+}
+#post-371 li a {
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 25px;
+}
+#post-371 li a:hover {
+	text-decoration: underline;
+}
+
+#post-2774 h1 {
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+#post-2774 h2 {
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+#post-2774 h3 {
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+#post-2774 ul {
+	margin-bottom: 10px;
+}
+
+.has-header-image.twentyseventeen-front-page .custom-header, .has-header-video.twentyseventeen-front-page .custom-header, .has-header-image.home.blog .custom-header, .has-header-video.home.blog .custom-header {
+	max-height: 490px !important;
+}
+
+.wcpt-session-title {
+    display: block;
+}
+.wcpt-schedule .wcpt-session-speakers {
+    display: block;
+}
+.wcpt-session-speakers a {
+    font-style: italic;
+	font-size: 14px;
+    color: #2f3436 !important;
+}
+a.wcpt-session-title,
+.wcpt-session-speakers a {
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+.wcpt-schedule td {
+	vertical-align: top;
+}
+.wcpt-schedule ul {
+	margin-left: 20px !important;
+}
+
+body.colors-dark.page-slug-schedule-real,
+body.colors-dark .site-content-contain,
+body.colors-dark.page-slug-schedule {
+	background-color: #fff !important;
+}
+body.colors-dark.page-slug-schedule-real h1,
+body.colors-dark.page-slug-schedule h1 {
+	color: #000 !important;
+}
+.wcpt-schedule hr, 
+table.wcpt-schedule tbody tr:nth-child(2n+1) {
+	background: #fff3ef none repeat scroll 0 000;
+}
+table.wcpt-schedule td,
+table.wcpt-schedule th {
+	padding: 10px !important;
+}
+table.wcpt-schedule.top-table tbody tr {
+	background: none !important;
+}
+table.wcpt-schedule.top-table {
+	margin-bottom: 0;
+}
+table.wcpt-schedule.top-table ul {
+	list-style: none;
+	margin: 0 !important;
+}
+
+body.home .panel-content .entry-header {
+	margin-bottom: 0;
+}
+.twentyseventeen-front-page .panel-content .recent-posts article {
+	margin-bottom: 1em;
+}
+article .recent-posts {
+	margin-top: 50px;
+}
+
+.social-navigation a {
+	background-color: transparent;
+}
+
+#content section.widget .sponsor-level h4 {
+	background: transparent !important;
+	color: #000;
+	text-align: center;
+	padding: 10px;
+	font-size: 26px;
+	line-height: 32px;
+	font-weight: 500;
+}
+
+.wcb_speaker-template-default .speaker-avatar {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+.wcb_speaker-template-default .speaker-avatar img,
+.wcorg-speaker-description img {
+    border-radius: 50%;
+}
+
+/* emoji for schedule */
+
+.wcb-session-changing-the-world-through-tech-one-character-at-a-time a.wcpt-session-title:after,
+.wcb-session-getting-real-business-results-from-your-content-marketing-efforts a.wcpt-session-title:after,
+.wcb-session-security-for-your-webserver-how-to-protect-your-website-by-protecting-the-server-it-runs-on a.wcpt-session-title:after,
+.wcb-session-pros-and-cons-of-page-builders a.wcpt-session-title:after,
+.wcb-session-managing-multiple-wordpress-websites-in-2017 a.wcpt-session-title:after,
+.wcb-session-case-study-rest-in-production a.wcpt-session-title:after {
+    content: '\26A1';
+    font-size: 22px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.wcb-session-kids-panel a.wcpt-session-title:after,
+.wcb-session-business-panel a.wcpt-session-title:after,
+.wcb-session-business-panel-2 a.wcpt-session-title:after,
+.wcb-session-business-panel-3 a.wcpt-session-title:after,
+.wcb-session-business-panel-4 a.wcpt-session-title:after,
+.wcb-session-business-panel-5 a.wcpt-session-title:after,
+.wcb-session-panel-ecommerce-lessons a.wcpt-session-title:after {
+    content: '\1F465';
+    font-size: 22px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.wcb-session-opening-remarks .wcpt-session-title:after,
+.wcb-session-end-of-day-remarks .wcpt-session-title:after,
+.wcb-session-end-of-day-remarks-2 .wcpt-session-title:after,
+.wcb-session-end-of-day-remarks-3 .wcpt-session-title:after {
+    content: '\1F4E3';
+    font-size: 22px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.wcb-session-lunch .wcpt-session-title:after,
+.wcb-session-lunch-2 .wcpt-session-title:after,
+.wcb-session-lunch-3 .wcpt-session-title:after {
+    content: '\1F354';
+    font-size: 22px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.wcb-session-breakfast-social .wcpt-session-title:after {
+    content: '\2615';
+    font-size: 22px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.wcpt-time-1020am .wcpt-session-title:after,
+.wcpt-time-250pm .wcpt-session-title:after {
+    content: '\1F64B';
+    font-size: 22px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.wcb-session-registration .wcpt-session-title:after,
+.wcb-session-breakfast-social-registration .wcpt-session-title:after {
+    content: '\1F39F';
+    font-size: 22px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+
+/* end emoji */
+
+@media only screen and (max-device-width: 736px) and (min-device-width: 414px) and (orientation: portrait) {
+	body.has-header-image .site .site-title {
+		background-position: center center !important;
+		top: 0 !important;
+		height: 300px !important;
+	}
+}
+
+@media (max-width: 800px) {
+
+	body.has-header-image .site .custom-header {
+		height: 100px !important;
+	}
+	.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+		font-size: 20px !important;
+	}
+
+	.tix-ticket-form td, .tix-attendee-form td, .tix-private-form td, .tix-receipt-form td {
+		display: inline-block;
+
+	}
+	.tix_tickets_table.tix-attendee-form label,
+	.tix_tickets_table.tix-attendee-form select,
+	.tix_tickets_table.tix-attendee-form textarea {
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.tix_tickets_table.tix-attendee-form .tix-ticket-form td.tix-left, .tix-private-form td.tix-left, .tix-attendee-form td.tix-left, .tix-receipt-form td.tix-left {
+    	width: 100%;
+    	float: none;
+    	font-size: 14px;
+    	line-height: 16px;
+    	padding-top: 10px;
+  	}
+  	.tix_tickets_table.tix-attendee-form .tix-ticket-form td.tix-right, .tix-private-form td.tix-right, .tix-attendee-form td.tix-right, .tix-receipt-form td.tix-right {
+  		width: 100%;
+  		float: none;
+  		padding-bottom: 10px;
+  	}
+}
