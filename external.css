@@ -691,3 +691,12 @@ article .recent-posts {
   		padding-bottom: 10px;
   	}
 }
+
+
+.latest-news-homepage {
+	text-align: center;
+	margin: 30px auto;
+}
+.latest-news-homepage li {
+	text-align: left;
+}
