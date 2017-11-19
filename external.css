@@ -21,7 +21,11 @@ body.page-template-default #primary div.entry-content {
 	width: 100% !important;
 }
 
+/* sponsor page tweaks */
 
+body.wcb_sponsor-template-default .entry-content a img {
+	margin-bottom: 30px;
+}
 
 /*SAFARI DOES NOT SHOW VIDEO*/
 div.custom-header {
