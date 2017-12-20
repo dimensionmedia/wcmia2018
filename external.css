@@ -80,6 +80,7 @@ body.home #panel2 .wcorg-sponsor-level-silver div.wcorg-sponsor .wcorg-sponsor-d
 	width: auto;
 	height: auto;
 	margin: auto;
+	position: absolute;
 }
 
 body.home #panel2 .wcorg-sponsor-level-community div.wcorg-sponsor .wcorg-sponsor-description img,
