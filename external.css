@@ -68,7 +68,6 @@ footer.entry-footer .cat-tags-links {
 body.home #panel2 .wcorg-sponsor-level-gold div.wcorg-sponsor .wcorg-sponsor-description,
 body.home #panel2 .wcorg-sponsor-level-silver div.wcorg-sponsor .wcorg-sponsor-description {
 	height: 75px;
-	display: inline-block;
 	position: relative;
 	overflow: hidden;
 }
