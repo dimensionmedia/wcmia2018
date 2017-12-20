@@ -65,6 +65,23 @@ footer.entry-footer .cat-tags-links {
 	color: #fff !important;
 }
 
+body.home #panel2 .wcorg-sponsor-level-gold div.wcorg-sponsor .wcorg-sponsor-description,
+body.home #panel2 .wcorg-sponsor-level-silver div.wcorg-sponsor .wcorg-sponsor-description {
+	height: 75px;
+	display: inline-block;
+	position: releative;
+	overflow: hidden;
+}
+
+body.home #panel2 .wcorg-sponsor-level-gold div.wcorg-sponsor .wcorg-sponsor-description img,
+body.home #panel2 .wcorg-sponsor-level-silver div.wcorg-sponsor .wcorg-sponsor-description img {
+	max-height: 100%;
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	margin: auto;
+}
+
 body.home #panel2 .wcorg-sponsor-level-community div.wcorg-sponsor .wcorg-sponsor-description img,
 body.home #panel2 .wcorg-sponsor-level-agency div.wcorg-sponsor .wcorg-sponsor-description img {
     display: none !important;
