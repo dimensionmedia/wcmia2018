@@ -128,6 +128,10 @@ body.home #panel2 .wcorg-sponsor-level-agency div.wcorg-sponsor .wcorg-sponsor-d
 body.page-slug-sponsors .wcorg-sponsors img {
 	background-color: #fff !important;
 }
+
+body.page-slug-sponsors .wcorg-sponsor-level-community {
+	display: none;
+}
 body.page-slug-sponsors .wcorg-sponsor-level-community .wcorg-sponsor-description img,
 body.page-slug-sponsors .wcorg-sponsor-level-agency .wcorg-sponsor-description img {
 	display: none !important;
