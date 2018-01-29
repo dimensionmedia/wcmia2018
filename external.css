@@ -604,8 +604,9 @@ article .recent-posts {
     border-radius: 50%;
 }
 
-/* emoji for schedule */
 
+/* emoji for schedule */
+/*
 .wcb-session-changing-the-world-through-tech-one-character-at-a-time a.wcpt-session-title:after,
 .wcb-session-getting-real-business-results-from-your-content-marketing-efforts a.wcpt-session-title:after,
 .wcb-session-security-for-your-webserver-how-to-protect-your-website-by-protecting-the-server-it-runs-on a.wcpt-session-title:after,
@@ -672,7 +673,7 @@ article .recent-posts {
 	margin-left: 5px;
 	vertical-align: middle;
 }
-
+*/
 
 /* end emoji */
 
