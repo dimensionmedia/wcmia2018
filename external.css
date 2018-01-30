@@ -677,6 +677,10 @@ article .recent-posts {
 
 /* end emoji */
 
+.wcpt-schedule .dashicons {
+	display: none !important;
+}
+
 @media only screen and (max-device-width: 736px) and (min-device-width: 414px) and (orientation: portrait) {
 	body.has-header-image .site .site-title {
 		background-position: center center !important;
