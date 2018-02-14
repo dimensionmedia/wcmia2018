@@ -607,6 +607,7 @@ article .recent-posts {
 
 /* emoji for schedule */
 /* lightning talks */
+.wcb-session-category-lightning .wcpt-session-title:after,
 .wcb-session-category-lightning a.wcpt-session-title:after {
     content: '\26A1'; /* lightning bolt */
     font-size: 22px;
@@ -615,6 +616,7 @@ article .recent-posts {
 }
 
 /* panels */
+.wcb-session-category-panel .wcpt-session-title:after,
 .wcb-session-category-panel a.wcpt-session-title:after {
     content: '\1F465';  /* people */
     font-size: 22px;
@@ -623,6 +625,7 @@ article .recent-posts {
 }
 
 /* remarks */
+.wcb-session-category-remarks .wcpt-session-title:after,
 .wcb-session-category-remarks a.wcpt-session-title:after {
     content: '\1F4E3'; /* bullhorn */
     font-size: 22px;
@@ -631,6 +634,7 @@ article .recent-posts {
 }
 
 /* lunch */
+.wcb-session-category-lunch .wcpt-session-title:after,
 .wcb-session-category-lunch a.wcpt-session-title:after {
     content: '\1F354'; /* hamburger */
     font-size: 22px;
@@ -639,6 +643,7 @@ article .recent-posts {
 }
 
 /* breakfast */
+.wcb-session-category-breakfast .wcpt-session-title:after,
 .wcb-session-category-breakfast a.wcpt-session-title:after {
     content: '\2615'; /* coffee */
     font-size: 22px;
@@ -647,6 +652,7 @@ article .recent-posts {
 }
 
 /* ask me anything */
+.wcb-session-category-ama .wcpt-session-title:after,
 .wcb-session-category-ama a.wcpt-session-title:after {
     content: '\1F64B'; /* hand raised */
     font-size: 22px;
@@ -655,6 +661,7 @@ article .recent-posts {
 }
 
 /* keynote */
+.wcb-session-category-keynote .wcpt-session-title:after,
 .wcb-session-category-keynote a.wcpt-session-title:after {
     content: '\1F399'; /* hand raised */
     font-size: 22px;
@@ -663,6 +670,7 @@ article .recent-posts {
 }
 
 /* registration */
+.wcb-session-category-registration .wcpt-session-title:after,
 .wcb-session-category-registration a.wcpt-session-title:after {
     content: '\1F39F'; /* ticket */
     font-size: 22px;
