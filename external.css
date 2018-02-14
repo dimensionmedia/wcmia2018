@@ -113,6 +113,9 @@ body.home #panel2 .wcorg-sponsor-level-agency h2 {
 	margin-top: 15px;
 }
 
+body.home #panel2 .wcorg-sponsor-level-bronze div.wcorg-sponsor {
+    max-height: 50px;
+}
 body.home #panel2 .wcorg-sponsor-level-community div.wcorg-agency h3 {
 	display: none;
 }
