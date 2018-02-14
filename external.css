@@ -606,74 +606,69 @@ article .recent-posts {
 
 
 /* emoji for schedule */
-/*
-.wcb-session-changing-the-world-through-tech-one-character-at-a-time a.wcpt-session-title:after,
-.wcb-session-getting-real-business-results-from-your-content-marketing-efforts a.wcpt-session-title:after,
-.wcb-session-security-for-your-webserver-how-to-protect-your-website-by-protecting-the-server-it-runs-on a.wcpt-session-title:after,
-.wcb-session-pros-and-cons-of-page-builders a.wcpt-session-title:after,
-.wcb-session-managing-multiple-wordpress-websites-in-2017 a.wcpt-session-title:after,
-.wcb-session-case-study-rest-in-production a.wcpt-session-title:after {
-    content: '\26A1';
+/* lightning talks */
+.wcb-session-category-lightning a.wcpt-session-title:after {
+    content: '\26A1'; /* lightning bolt */
     font-size: 22px;
 	margin-left: 5px;
 	vertical-align: middle;
 }
 
-.wcb-session-kids-panel a.wcpt-session-title:after,
-.wcb-session-business-panel a.wcpt-session-title:after,
-.wcb-session-business-panel-2 a.wcpt-session-title:after,
-.wcb-session-business-panel-3 a.wcpt-session-title:after,
-.wcb-session-business-panel-4 a.wcpt-session-title:after,
-.wcb-session-business-panel-5 a.wcpt-session-title:after,
-.wcb-session-panel-ecommerce-lessons a.wcpt-session-title:after {
-    content: '\1F465';
+/* panels */
+.wcb-session-category-panel a.wcpt-session-title:after {
+    content: '\1F465';  /* people */
     font-size: 22px;
 	margin-left: 5px;
 	vertical-align: middle;
 }
 
-.wcb-session-opening-remarks .wcpt-session-title:after,
-.wcb-session-end-of-day-remarks .wcpt-session-title:after,
-.wcb-session-end-of-day-remarks-2 .wcpt-session-title:after,
-.wcb-session-end-of-day-remarks-3 .wcpt-session-title:after {
-    content: '\1F4E3';
+/* remarks */
+.wcb-session-category-remarks a.wcpt-session-title:after {
+    content: '\1F4E3'; /* bullhorn */
     font-size: 22px;
 	margin-left: 5px;
 	vertical-align: middle;
 }
 
-.wcb-session-lunch .wcpt-session-title:after,
-.wcb-session-lunch-2 .wcpt-session-title:after,
-.wcb-session-lunch-3 .wcpt-session-title:after {
-    content: '\1F354';
+/* lunch */
+.wcb-session-category-lunch a.wcpt-session-title:after {
+    content: '\1F354'; /* hamburger */
     font-size: 22px;
 	margin-left: 5px;
 	vertical-align: middle;
 }
 
-.wcb-session-breakfast-social .wcpt-session-title:after {
-    content: '\2615';
+/* breakfast */
+.wcb-session-category-breakfast a.wcpt-session-title:after {
+    content: '\2615'; /* coffee */
     font-size: 22px;
 	margin-left: 5px;
 	vertical-align: middle;
 }
 
-.wcpt-time-1020am .wcpt-session-title:after,
-.wcpt-time-250pm .wcpt-session-title:after {
-    content: '\1F64B';
+/* ask me anything */
+.wcb-session-category-ama a.wcpt-session-title:after {
+    content: '\1F64B'; /* hand raised */
     font-size: 22px;
 	margin-left: 5px;
 	vertical-align: middle;
 }
 
-.wcb-session-registration .wcpt-session-title:after,
-.wcb-session-breakfast-social-registration .wcpt-session-title:after {
-    content: '\1F39F';
+/* keynote */
+.wcb-session-category-keynote a.wcpt-session-title:after {
+    content: '\1F399'; /* hand raised */
     font-size: 22px;
 	margin-left: 5px;
 	vertical-align: middle;
 }
-*/
+
+/* registration */
+.wcb-session-category-registration a.wcpt-session-title:after {
+    content: '\1F39F'; /* ticket */
+    font-size: 22px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
 
 /* end emoji */
 
