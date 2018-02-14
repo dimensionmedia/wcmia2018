@@ -736,3 +736,8 @@ article .recent-posts {
 .latest-news-homepage li {
 	text-align: left;
 }
+
+#menu-item-549 a {
+	background-color: tomato;
+	color: #fff !important;
+}
