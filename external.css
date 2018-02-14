@@ -672,7 +672,7 @@ article .recent-posts {
 /* registration */
 .wcb-session-category-registration .wcpt-session-title:after,
 .wcb-session-category-registration a.wcpt-session-title:after {
-    content: '\1F39F'; /* ticket */
+    content: '\1F3AB'; /* ticket */
     font-size: 22px;
 	margin-left: 5px;
 	vertical-align: middle;
