@@ -156,7 +156,7 @@ body.page-slug-sponsors .wcorg-sponsor-level-agency .wcorg-sponsor-description i
 #post-317 .cta-blocks {
 	text-align: center;
 }
-#post-317 .cta-blocks .big-button {
+#post-317 .cta-blocks a.big-button {
 	color: #fff !important;
 	background: blueviolet;
 	font-size: 18px;
@@ -164,6 +164,14 @@ body.page-slug-sponsors .wcorg-sponsor-level-agency .wcorg-sponsor-description i
 	padding: 20px;
 	margin: 0 0 10px 0;
 	display: inline-block;
+	width: 40%;
+	height: 4.5em;
+	vertical-align: middle;
+	box-shadow: none;
+	border-bottom: 3px solid rgba(0,0,0,0.2);
+}
+#post-317 .cta-blocks a.big-button:hover {
+	border-bottom: 3px solid rgba(0,0,0,0.5);
 }
 
 
