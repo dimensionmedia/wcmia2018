@@ -162,7 +162,6 @@ body.page-slug-sponsors .wcorg-sponsor-level-agency .wcorg-sponsor-description i
 	font-size: 18px;
 	line-height: 24px;
 	padding: 20px;
-	margin: 0 0 10px 0;
 	display: inline-block;
 	width: 40%;
 	margin: 0 2% 10px 0;
@@ -734,7 +733,14 @@ article .recent-posts {
   		width: 100%;
   		float: none;
   		padding-bottom: 10px;
-  	}
+	  }
+	  
+	  #post-317 .cta-blocks a.big-button {
+		display: inline-block;
+		width: 100%;
+		margin: 0 0 10px 0;
+	}
+	
 }
 
 
