@@ -674,7 +674,7 @@ article .recent-posts {
 /* keynote */
 .wcb-session-category-keynote .wcpt-session-title:after,
 .wcb-session-category-keynote a.wcpt-session-title:after {
-    content: '\1F399'; /* hand raised */
+    content: '\1F3C5'; /* medal */
     font-size: 22px;
 	margin-left: 5px;
 	vertical-align: middle;
