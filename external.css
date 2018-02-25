@@ -674,7 +674,7 @@ article .recent-posts {
 /* keynote */
 .wcb-session-category-keynote .wcpt-session-title:after,
 .wcb-session-category-keynote a.wcpt-session-title:after {
-    content: '\1F929'; /* starstruck smiley */
+    content: '\1F44F'; /* clapping */
     font-size: 22px;
 	margin-left: 5px;
 	vertical-align: middle;
