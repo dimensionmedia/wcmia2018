@@ -289,7 +289,7 @@ body.blog .single-featured-image-header img, body.single .single-featured-image-
 	padding: 0;
 }
 
-/*.site-branding .site-title, */
+/*
 .site-branding h1 {
 	background-image: url('https://2018.miami.wordcamp.org/files/2018/03/wcmia2018-logo-header.png') !important;
 	display: block;
@@ -300,10 +300,10 @@ body.blog .single-featured-image-header img, body.single .single-featured-image-
 	position: absolute;
 	text-indent: -999em;
 	top: 40%;
-	width: 600px;
+	width: 420px;
 	z-index: 2;
 }
-
+*/
 body.single .site-branding,
 body.blog .site-branding,
 body.page-template-default .site-branding {
