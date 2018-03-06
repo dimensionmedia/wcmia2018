@@ -291,7 +291,7 @@ body.blog .single-featured-image-header img, body.single .single-featured-image-
 
 /*.site-branding .site-title, */
 .site-branding h1 {
-	background-image: url('https://2018.miami.wordcamp.org/files/2018/03/wcmia2018-logo-header.png');
+	background-image: url('https://2018.miami.wordcamp.org/files/2018/03/wcmia2018-logo-header.png') !important;
 	display: block;
 	height: 443px;
 	left: 50%;
