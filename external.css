@@ -775,3 +775,10 @@ article .recent-posts {
 	background-color: tomato;
 	color: #fff !important;
 }
+
+ul, ol {margin-left: 2em;}
+li {
+	text-indent: -1em;
+	margin-left: 1em;
+	list-style-position: inside;
+}
